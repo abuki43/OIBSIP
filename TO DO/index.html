@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>TO-DO LIST</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+           <div class="editor">
+              <h2>To-Do List</h2>
+              <div>
+                <input class="title" type="text" placeholder="Title" maxlength="28">
+                <input class="discrip" placeholder="Short Description" maxlength="38"/>
+                <button class="btn"><i class="fa-solid fa-plus"></i>Add</button>
+              </div>
+           </div>
+           <div class="view-notes">
+              <div class="top">
+                <h3>Title</h3>
+                <h3>Description</h3>
+                <h3>Delete</h3>
+              </div>
+              <hr>
+              <ul class="notes">
+                
+              </ul>
+           </div> 
+        </div>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
