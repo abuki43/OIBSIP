@@ -3,7 +3,7 @@ This repository contains the projects I worked for my internship at Oasis.
 
 Calculator:
 
-Landing Page:
+Landing Page:https://abuki43.github.io/OIBSIP/AT%20landing-page
 
 Todo List:
 
